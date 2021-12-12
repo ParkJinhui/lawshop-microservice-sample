@@ -1,0 +1,14 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: '{cipher}51d06b30bbf212176f72f866c804fed75bc85430a5264b61df76b3580b22d6ebb4cde116088a132bf33b95a2abd288aea0511b0c2784c086f0dc2073935aa4affb262d3e41245fec06d57c0d32f25d4e'
+          default-label: main
+          username: lawshop
+          password: '{cipher}087bfa77a06310c14593ef65db883d2b9a20f1a288c5ef3f43152eb97991b6d1276af2859cd473b9537a516a822ec265de35595519da30ae82337c9f41ecf81d'

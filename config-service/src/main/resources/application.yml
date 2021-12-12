@@ -1,0 +1,15 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-service
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/lawshop/MicroserviceConfig.git
+          default-label: main
+          username: lawshop
+          password: '{cipher}6cd63c5efdd82d22a840b73f3e4e52e0d4b3777cdadc90560cc86b19b677ab6db0459ab7b947c0b38503bef499007da9d130f139bdd74d00595db742a5a1868d'
